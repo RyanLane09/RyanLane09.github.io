@@ -20,10 +20,17 @@ div {
 .left {
     width: 10%;
     position: relative;
-    height: 800px;
+    height: 900px;
     background-color: #e5c990;
     margin-top: 68px;
     margin-bottom: 10px;
+    float: left;
+}
+.textRight {
+    float: right;
+    padding-right: 15px;
+}
+.textLeft {
     float: left;
 }
 
@@ -32,7 +39,7 @@ div {
     width: 89%;
     background-color: #ffe4ce;
     float: right;
-    height: 800px;
+    height: 900px;
     margin-top: 68px;
     margin-bottom: 10px;
 }
@@ -48,6 +55,10 @@ p {
     font-size: 18px;
     font-family: sans;
     margin-top: 5px;
+}
+ul {
+    display: block;
+    clear: both;
 }
 
 li {
@@ -73,3 +84,7 @@ h1 {
     
 
 }
+span {
+    text-align: right;
+}
+    
